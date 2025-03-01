@@ -1,0 +1,11 @@
+# Steps
+
+1. Open cmd in this directory 
+2. connect to psql 
+psql -U postgres
+3. Create tpch database and quit \q
+create Database tpch;
+3. Run:
+psql -U postgres -d tpch -f schema.sql
+
+-- Schema are created
